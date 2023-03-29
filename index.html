@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Portfolio</title>
+    <script src="https://kit.fontawesome.com/5120116771.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="logo2.jpg" alt="logoimage">
+            </div>
+            <ul>
+                <li><a id="">Home</a></li>
+                <li><a  id=" ">About</a></li>
+                <li><a id="">Service</a></li>
+                <li><a id=" ">Portfolio</a></li>
+                <li><a id="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="main">
+            <div class="main-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <br><span>Pooja Kumari</span> <br>from Rajasthan,India.</h1>
+            </div>
+            <div class="main-image">
+                <img src="image2.jpg" alt="myportfoli">
+            </div>
+        </div>
+        <!------------------------------------ABOUT---------------------------------->
+        <div class="about">
+            <div class="about-image">
+                <img src="image6.jpg" alt="about image">
+            </div>
+            <div class="about-text">
+                <div class="about-me">
+                    <h2 class="sub-text">About Me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Autem unde obcaecati odio quam est. Totam dolorum voluptate vel incidunt?
+                        Debitis animi facilis voluptas similique, at magni consectetur maxime molestiae cum?</p>
+                </div>
+                <div class="tabs">
+                    <button class="content " onclick="openTab(event, 'Tab1')" id="defaultOpen">Skills</button>
+                    <button class="content " onclick="openTab(event, 'Tab2')">Experience</button>
+                    <button class="content " onclick="openTab(event, 'Tab3')">Education</button>
+                </div>
+                <div id="Tab1" class="tabcontent active" style="display: none;">
+                    <ul>
+                        <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development </li>
+                        <li><span>App Developppment</span><br>Building Androids/ios apps</li>
+                    </ul>
+
+                </div>
+                <div id="Tab2" class="tabcontent">
+                    <ul>
+                        <li><span>UX/UI</span><br>HTML ,CSS ,JavaScript</li>
+                        <li><span>Web Development</span><br>Sass, React.js, Figma, JSON</li>
+                        <li><span>App Developppment</span></li>
+                    </ul>
+                </div>
+                <div id="Tab3" class="tabcontent">
+                    <ul>
+                        <li><span>B.tech</span><br>Govt. Engineering College of Bikaner(2015-19)</li>
+                        <li><span>12th</span><br>Apex Sen. sec. School(1014)</li>
+                        <li><span>10th</span><br>Apex Sen. sec. School(1012)</li>
+                    </ul>
+                </div>
+                <!----------------------------
+                <div class="infos">
+                    <div class="subinfos active-link" onclick="openTab(event,'skills')" id="defaultOpen">Skills</div>
+                    <div class="subinfos" onclick="openTab(event,'experience')">Experience</div>
+                    <div class="subinfos" onclick="openTab(event,'education')">Education</div>
+                </div>
+                <div class="tabcontents active-tab" id="skills">
+                    <ul>
+                        <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development </li>
+                        <li><span>App Developppment</span><br>Building Androids/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tabcontents " id="experience">
+                    <ul>
+                        <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development </li>
+                        <li><span>App Developppment</span><br>Building Androids/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tabcontents" id="education">
+                    <ul>
+                        <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development </li>
+                        <li><span>App Developppment</span><br>Building Androids/ios apps</li>
+                    </ul>
+                </div>
+                ---------->
+            </div>
+        </div>
+        <!------------------------------------SERVICES--------------------------->
+        <div class="services">
+            <div class="sub-services ">
+                <h1 class="sub-text">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Web Design</h2>
+                        <p>A web designer is a professional who creates and designs visually appealing and user-friendly
+                            websites.
+                            They use a combination of technical skills and creativity to build websites
+                            that meet the needs of their clients and their users. Web designers must have a solid
+                            understanding of design principles, programming languages, and web development tools to
+                            bring their ideas to life.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>A UI/UX designer is a professional responsible for designing the user interface and
+                            experience
+                            of digital products such as websites, applications, and software. They use their knowledge
+                            of
+                            user behavior, visual design, and interaction design to create intuitive and engaging
+                            interfaces
+                            that enhance user satisfaction and usability. A UI/UX designer's goal is to make sure the
+                            end user
+                            has a seamless and enjoyable experience while using the product.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>App Designer is a visual design environment in MATLAB that enables developers to
+                            create and prototype interactive applications without writing code. With App Designer,
+                            developers can create user interfaces by dragging and dropping components, defining their
+                            properties and behavior, and then integrating with MATLAB algorithms to create a functional
+                            application.
+                            App Designer also provides tools for testing and debugging applications.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------PORTFOLIO------------------------------->
+            <div class="portfolio">
+                <div class="container">
+                    <h1>My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="image5.jpg" alt="">
+                            <div class="layer">
+                                <h5>Social Media App</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <a href="#"><i class=""></i></a>
+
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image4.jpg" alt="">
+                            <div class="layer">
+                                <h5>Social Media App</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <a href="#"><i class=""></i></a>
+
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image3.jpg" alt="">
+                            <div class="layer">
+                                <h5>Social Media App</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <a href="#"><i class=""></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!-----------------CONTACT------------------>
+            <div class="contact" id="contact">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>contact Me</h1>
+                        <i class="fa-sharp fa-regular fa-paper-plane"></i>
+                        <p> pk4001016@gmil.com</p><br>
+                        <i class="fa-solid fa-phone"></i>
+                        <p> 9511513205</p>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <a href="Pknew.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name"
+                                onkeypress="return validateName(event)" required>
+                            <input type="txt" name="Number" placeholder="Number" lenght="10"
+                                onkeypress="return validateNumber(event)" required>
+
+                            <input type="email" name="Email" placeholder="Your Email"
+                                onkeypress="return validateEmail(event)" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="btn btn2" type="submit">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright by Pooja<i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+        <!-----------------SCRIPT------------------>
+        <script>
+            function openTab(evt, tabName) {
+                var i, tabcontent, content;
+                tabcontent = document.getElementsByClassName('tabcontent');
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = 'none';
+                }
+                content = document.getElementsByClassName('content');
+                for (i = 0; i < content.length; i++) {
+                    content[i].className = content[i].className.replace(' active', '');
+                }
+                document.getElementById(tabName).style.display = 'block';
+                evt.currentTarget.className += ' active';
+            }
+            document.getElementById("defaultOpen").click();
+
+            /*---------------------------Validations-------*/
+
+            function validateNumber(e) {
+                const pattern = /^[0-9]$/;
+                return pattern.test(e.key)
+            }
+            function validateName(e) {
+                const pattern = /[A-Za-z\b]|\./;
+                return pattern.test(e.key)
+            }
+           /*
+             function validateEmail(e) {
+             const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+             return pattern.test(e.key)
+             }
+             */
+            /*
+            var subinfos = document.getElementsByClassName("sub-infos");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(evt,tabname) {
+                for (subinfo of subinfos) {
+                    subinfo.classList.remove("active-link");
+                }
+                for (tabcontect of tabcontects) {
+                    tabcontect.classList.remove("active-tab");
+
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+          */
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwSL82hBSzTVI_agj-iLbOz3RphUHJcsy-2WadBv0YYMS6Fk_ZOgU48EESi2QAgwgZP/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = " "
+                        },5000)
+                        form.reset()
+                    })
+                   
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
